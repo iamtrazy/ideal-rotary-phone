@@ -12,7 +12,7 @@ services:
     networks:
       - myapp_network
   myapp:
-    build: ghcr.io/iamtrazy/ideal-rotary-phone:master
+    image: ghcr.io/iamtrazy/ideal-rotary-phone:master
     container_name: myapp
     restart: unless-stopped
     networks:
