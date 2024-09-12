@@ -1,0 +1,3 @@
+test-react-app.duckdns.org {
+	reverse_proxy myapp:3000
+}
