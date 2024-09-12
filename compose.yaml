@@ -19,6 +19,12 @@ services:
       - myapp_network
     depends_on:
       - caddy
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+
 
 networks:
   myapp_network:
